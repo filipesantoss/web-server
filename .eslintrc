@@ -1,0 +1,13 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "env": { "node": true },
+    "rules": {
+        "quotes": ["error", "single"],
+        "dot-location": ["error", "property"],
+        "eqeqeq": ["error", "always"],
+        "max-len": ["error", 100]
+    }
+}
